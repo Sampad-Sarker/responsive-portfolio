@@ -1,0 +1,122 @@
+.hello{
+    background-image: url(img/header-bg.png);
+}
+
+#title{
+    color: #ED4B71 ;
+}
+img{
+    width: 100%;
+}
+
+.row.row-m-p {
+    margin: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8.125rem 0rem;
+}
+
+button{
+    background-color: #ED4B71;
+    color: #ffffff;
+    border:1px solid #ED4B71;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    padding: 5px 25px;
+}
+
+.bio{
+    background-image: url(img/biography-bg.png);
+}
+
+.lastWork{
+    background-image: url(img/latest-work-bg.png);
+}
+
+#lastWorkRowStyle{
+    margin-top:0 ;
+    padding-bottom: 0;
+}
+
+.client{
+    background-image: url(img/footer-bg.png);
+}
+
+.smallTextStyle{
+    margin: 10px 10px;
+}
+
+.mailStyle{
+    background-image: linear-gradient(45deg,#EC5298,#ED4B71);
+    border-radius:0.625rem ;
+    -webkit-border-radius:0.625rem ;
+    -moz-border-radius:0.625rem ;
+    -ms-border-radius:0.625rem ;
+    -o-border-radius:0.625rem ;
+
+    margin: 1.975rem 8.125rem;
+    padding: 2.1875rem;
+}
+
+a{
+    color: #ffffff;;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .mailStyle{
+        margin: 1.975rem -5rem;
+        padding: 1.1875rem 0rem;
+    }
+
+    .mailStyle .h3{
+        font-size: 1.125rem;
+    }
+   
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .mailStyle{
+        
+        margin: 1.975rem 0rem;
+        padding: 2.1875rem 0rem;
+    }
+
+    .mailStyle .h3{
+        font-size: 1.5rem;
+    }  
+        
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .mailStyle{
+        
+        margin: 1.975rem 1.125rem;
+            
+    }
+
+}
+
+
+
+
